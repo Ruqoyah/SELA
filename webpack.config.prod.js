@@ -1,8 +1,8 @@
 const webpack = require('webpack');
 const merge = require('webpack-merge');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-const webpackCommon = require('./webpack.config.common');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const webpackCommon = require('./webpack.config.common');
 
 const GLOBALS = {
   'process.env.NODE_ENV': JSON.stringify('production')
