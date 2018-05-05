@@ -1,0 +1,23 @@
+{
+  "name": "sela",
+  "version": "1.0.0",
+  "description": "Sela platform is used by projects funders, contractors and community members of a given region as a means to share real time information about the state of infrastructure projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruqoyah/SELA.git"
+  },
+  "author": "Ruqoyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruqoyah/SELA/issues"
+  },
+  "homepage": "https://github.com/Ruqoyah/SELA#readme",
+  "dependencies": {
+    "webpack": "^4.7.0",
+    "webpack-dev-middleware": "^3.1.3"
+  }
+}
