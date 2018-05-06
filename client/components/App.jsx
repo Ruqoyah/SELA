@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import HomePage from './presentationals/HomePage';
 
 /**
  * @class App
@@ -11,7 +12,9 @@ export default class App extends Component {
   render = () => (
     <Router>
       <div>
-        <Switch />
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+        </Switch>
       </div>
     </Router>
   );
