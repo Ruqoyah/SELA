@@ -1,0 +1,508 @@
+$white: #fff;
+$black-overlay: rgba(0,0,0,0.6);
+$light-blue: #2D9CDB;
+$grey: rgba(79, 79, 79, 0.8);
+$primary-font: 'Comfortaa';
+
+.advert {
+  width: 100%;
+  background: url(/images/woman.png) center no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: $black-overlay;
+  padding: 3% 2% 6% 2%;
+  text-align: center;
+}
+
+.text-slogan {
+  margin-top: 12%;
+  color: $white;
+  font-family: $primary-font; 
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.text-description {
+  margin-top: 3%;
+  color: $white;
+  font-family: $primary-font; 
+  font-size: 23px;
+  line-height: 1.5;
+}
+
+.btn-info {
+  margin-top: 10%;
+  padding: 2rem 4rem 0 4rem;
+  border-radius: 50px;
+  background-color: $light-blue;
+  font-size: 25px;
+  cursor: pointer;
+  line-height: 0.5;
+  font-family: $primary-font;
+  font-weight: 900;
+  border-color: $light-blue;
+}
+
+.btn-info .fa {
+  display: block;
+  font-size: 60px;
+}
+
+.logo {
+  background-color: transparent;
+  width: 160px;
+  border: 3px solid $white;
+  margin: auto;
+}
+
+.logo-text {
+  color: $white;
+  font-family: $primary-font; 
+  padding: 10px 0 0 0; 
+}
+
+.footer hr {
+  color: $grey;
+  width: 85%;
+  margin-bottom: 3rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.footer-text {
+  color: $grey;
+  font-family: $primary-font; 
+  font-size: 22px;
+  margin-bottom: 2%;
+}
+
+.map-position {
+  position: relative;
+  width: 100%;
+  height: 900px;
+}
+
+.projects {
+  margin-top: 5%;
+  padding: 0 5%;
+}
+
+.search-description {
+  background-color: $light-blue;
+  padding: 2% 0;
+  font-family: $primary-font;
+  text-align: center;
+  color: $white;
+  font-weight: 900;
+}
+
+.search-input {
+  display: block;
+  width: 100%;
+  padding: 1.7rem 2rem;
+  font-size: 2rem;
+  font-family: $primary-font;
+  font-weight: 900;
+  line-height: 1.25;
+  color: $grey;
+  background-color: #fff;
+  background-image: none;
+  background-clip: padding-box;
+  border: 0;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.input-wrapper {
+  position: relative; 
+  display: flex;
+}
+
+.input-wrapper:before {
+  font-family: 'FontAwesome';
+  color: $grey;
+  font-size: 3rem;
+  display: inline;
+  position: relative;
+  padding-left: 3%;
+  content: "\f041";
+  margin: auto 0
+}
+
+.project-cards {
+  margin-top: 3%;
+}
+
+.title {
+  font-family: $primary-font;
+  font-weight: 900;
+}
+
+.title-wrapper {
+  margin: auto;
+}
+
+.sort-buttons {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1.2px solid $light-blue;
+  text-align: right;
+}
+
+.button-style {
+  width: 212px;
+  height: 47px;
+  border-radius: 0;
+  background-color: $light-blue;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 0.5;
+  font-family: $primary-font;
+  font-weight: 900;
+  color: $white;
+}
+
+.show-dropdown {
+  width: 212px;
+}
+
+.sort-text {
+  margin: auto 55px auto 0;
+  font-family: $primary-font;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.btn-info:active, .show>.btn-info.dropdown-toggle {
+  background-color:$light-blue;
+  background-image: none;
+  border-color: $light-blue;
+}
+
+.btn-info.focus, .btn-info:focus {
+  box-shadow: 0 0 0 3px rgb(77, 155, 214);
+}
+
+.btn-info:hover {
+  color: $white;
+  background-color: $light-blue;
+  border-color: $light-blue;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: $light-blue;
+}
+
+.project-card {
+  background: #F2F2F2;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.image-position {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+.card-info {
+  padding: 5% 5%;
+}
+
+.card-title {
+  font-family: $primary-font;
+  font-weight: 900;
+}
+
+.card-description {
+  font-family: $primary-font;
+  font-size: 14px;
+  margin-top: 10px; 
+}
+
+.contractors {
+  font-family: $primary-font;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.font-style {
+  font-family: $primary-font;
+  font-size: 15px;
+  display: inline;
+  margin-left: 10px
+}
+
+.address-icon {
+  font-size: 20px;
+  color: $light-blue;
+}
+
+.budget-icon {
+  width: 20px;
+}
+
+.card-row {
+  margin-bottom: 3%;
+}
+
+.contractor-pic {
+  width: 45px;
+  height: 45px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: #F2F2F2;
+  margin-right: 15px;
+  object-fit: contain;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: #C4C4C4;
+  display: inline-block;
+  margin: 70px 2px;
+}
+
+.circles {
+  text-align: center;
+}
+
+.space {
+  margin: 0 0 0 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.view-more-wrappper {
+  text-align: right;
+}
+
+.view-more {
+  font-size: 14px;
+  font-family: $primary-font;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.rc-progress-line {
+  width: 163px;
+  height: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+}
+
+.percent {
+  position: absolute;
+  bottom: 25px;
+  text-align: center;
+  left: 20px;
+  font-size: 10px;
+  width: 163px;
+}
+
+.rc-progress-line-trail {
+  d: path('M 2 2 L 98 2');
+  stroke-linecap: round;
+  stroke: rgb(217, 217, 217);
+  stroke-width: 4;
+  fill-opacity: 0;
+}
+
+.image-wrapper {
+  display: inline;
+  position: relative;
+}
+
+.progress {
+  color: #fff;
+  position: absolute;
+  padding: 5px;
+  font-family: $primary-font;
+}
+
+@media only screen and (max-width: 600px) {
+  .button-style {
+    width: 90px;
+    height: 30px;
+    border-radius: 0;
+    background-color: $light-blue;
+    font-size: 10px;
+    cursor: pointer;
+    line-height: 0.5;
+    font-family: $primary-font;
+    font-weight: 900;
+    color: $white;
+  }
+  
+  .sort-text {
+    margin: auto 30px auto 0;
+    font-family: $primary-font;
+    font-size: 10px;
+    font-weight: 900;
+  }
+
+  .overlay {
+    background-color: $black-overlay;
+    padding: 3% 4% 6% 4%;
+    text-align: center;
+  }  
+
+  .title {
+    font-family: $primary-font;
+    font-weight: 900;
+    font-size: 18px;
+  }
+
+  .text-slogan {
+    margin-top: 12%;
+    color: $white;
+    font-family: $primary-font; 
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .text-description {
+    margin-top: 3%;
+    color: $white;
+    font-family: $primary-font; 
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .btn-info {
+    margin-top: 10%;
+    padding: 1.5rem 2rem 0 2rem;
+    border-radius: 50px;
+    background-color: $light-blue;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 0.5;
+    font-family: $primary-font;
+    font-weight: 900;
+    border-color: $light-blue;
+  }
+  
+  .btn-info .fa {
+    display: block;
+    font-size: 60px;
+  }
+
+  .logo {
+    background-color: transparent;
+    width: 100px;
+    border: 2px solid $white;
+    margin: auto;
+  }
+  
+  .logo-text {
+    color: $white;
+    font-family: $primary-font; 
+    padding: 10px 0 0 0; 
+    font-size: 16px;
+  }
+  
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+  .button-style {
+    width: 120px;
+    height: 30px;
+    border-radius: 0;
+    background-color: $light-blue;
+    font-size: 10px;
+    cursor: pointer;
+    line-height: 0.5;
+    font-family: $primary-font;
+    font-weight: 900;
+    color: $white;
+  }
+
+  .sort-text {
+    margin: auto 30px auto 0;
+    font-family: $primary-font;
+    font-size: 10px;
+    font-weight: 900;
+  }
+
+  .title {
+    font-family: $primary-font;
+    font-weight: 900;
+    font-size: 18px;
+  }
+
+  .rc-progress-line {
+    width: 70px;
+    height: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+  }
+  
+  .percent {
+    position: absolute;
+    bottom: 25px;
+    text-align: center;
+    left: -27px;
+    font-size: 5px;
+    width: 163px;
+  }
+}
+
+@media(min-width: 1024px) and (max-width: 1366px) {
+  .button-style {
+    width: 150px;
+    height: 47px;
+    border-radius: 0;
+    background-color: $light-blue;
+    font-size: 10px;
+    cursor: pointer;
+    line-height: 0.5;
+    font-family: $primary-font;
+    font-weight: 900;
+    color: $white;
+  }
+
+  .show-dropdown {
+    width: 150px;
+  }
+  
+  .sort-text {
+    margin: auto 30px auto 0;
+    font-family: $primary-font;
+    font-size: 10px;
+    font-weight: 900;
+  }
+
+  .title {
+    font-family: $primary-font;
+    font-weight: 900;
+    font-size: 18px;
+  }
+
+  .rc-progress-line {
+    width: 103px;
+    height: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+  }
+  
+  .percent {
+    position: absolute;
+    bottom: 25px;
+    text-align: center;
+    left: 0;
+    font-size: 8px;
+    width: 163px;
+  }
+}
