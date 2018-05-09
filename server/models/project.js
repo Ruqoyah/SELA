@@ -38,6 +38,10 @@ const ProjectSchema = new Schema({
     type: Array,
     trim: true,
   },
+  status: {
+    type: String,
+    trim: true,
+  },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },
 });
