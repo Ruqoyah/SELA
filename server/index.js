@@ -7,6 +7,8 @@ import winston from 'winston';
 import webpackMiddleware from 'webpack-dev-middleware';
 import webpackConfig from '../webpack.config.dev';
 import webpackConfigProd from '../webpack.config.prod';
+import routes from './routes';
+import './config/database';
 
 dotenv.config();
 
@@ -24,6 +26,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(express.static(path.resolve(__dirname, '../client/public/')));
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(routes);
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/index.html'));
