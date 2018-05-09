@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from "prop-types";
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 
 /**
@@ -32,6 +33,10 @@ export class GoogleMap extends Component {
     );
   }
 }
+
+GoogleMap.propTypes = {
+  google: PropTypes.object
+};
 
 export default GoogleApiWrapper({
   // apiKey: (YOUR_GOOGLE_API_KEY_GOES_HERE)

@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux';
+import ProjectReducer from './projectReducer';
 
 /**
  * root reducer - contains all the reducers
@@ -8,6 +9,8 @@ import { combineReducers } from 'redux';
  * @param  {object} action the action
  *
  */
-const reducers = combineReducers({});
+const reducers = combineReducers({
+  projectReducer: ProjectReducer
+});
 
 export default reducers;

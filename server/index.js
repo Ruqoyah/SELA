@@ -6,7 +6,6 @@ import webpack from 'webpack';
 import winston from 'winston';
 import webpackMiddleware from 'webpack-dev-middleware';
 import webpackConfig from '../webpack.config.dev';
-import webpackConfigProd from '../webpack.config.prod';
 import routes from './routes';
 import './config/database';
 
@@ -17,8 +16,6 @@ const port = process.env.PORT || 8000;
 
 if (process.env.NODE_ENV !== 'production') {
   app.use(webpackMiddleware(webpack(webpackConfig)));
-} else {
-  app.use(webpackMiddleware(webpack(webpackConfigProd)));
 }
 
 app.use(bodyParser.json());

@@ -112,7 +112,7 @@ export default function seedProjects(req, res) {
       budget: '$10,000.00',
       progress: 80,
       image: '/images/brg.jpeg',
-      status: 'Completed',
+      status: 'On track to be completed',
       contractorPicture: [
         { picture: '/images/face.jpeg' },
         { picture: '/images/icon.png' },
