@@ -1,7 +1,8 @@
 import Project from '../models/project';
 
 /**
- * Seed projects tothe database
+ * Seed projects to the database
+ *
  * @param {object} req - request object
  * @param {object} res - response object
  *
